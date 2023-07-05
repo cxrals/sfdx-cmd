@@ -1,0 +1,42 @@
+{
+	"orgName": "sfdx-cmd",
+	"edition": "Enterprise",
+	"features": [
+		"EnableSetPasswordInApi",
+		"Knowledge",
+		"LightningServiceConsole",
+		"Communities",
+		"ServiceCloud",
+		"ServiceUser",
+		"EinsteinArticleRecommendations"
+	],
+	"settings": {
+		"lightningExperienceSettings": {
+			"enableS1DesktopEnabled": true
+		},
+		"mobileSettings": {
+			"enableS1EncryptedStoragePref2": false
+		},
+		"securitySettings": {
+			"enableAdminLoginAsAnyUser": true,
+			"enableAuditFieldsInactiveOwner": true
+		},
+		"knowledgeSettings": {
+			"enableKnowledge": true,
+			"enableLightningKnowledge": true,
+			"defaultLanguage": "en_US",
+			"languages": {
+				"language": [
+					{
+						"active": true,
+						"name": "en_US"
+					},
+					{
+						"active": true,
+						"name": "es"
+					}
+				]
+			}
+		}
+	}
+}
